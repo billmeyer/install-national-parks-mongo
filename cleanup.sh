@@ -13,4 +13,7 @@ rm -fv /lib/systemd/system/mongod.service
 rm -fv /tmp/national_park_service.json
 rm -fv /tmp/check-nationalparks-data.sh
 
+# remove mongo database files
+rm -rfv /var/lib/mongo
+
 echo "done."
