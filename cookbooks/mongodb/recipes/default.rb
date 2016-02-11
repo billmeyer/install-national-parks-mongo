@@ -53,19 +53,20 @@ service 'mongod' do
 	action [ :start ]
 end
 
+template "/tmp/check-nationalparks-data.sh" do
+        source 'check-nationalparks-data.sh.erb'
+        owner 'root'
+        group 'root'
+        mode '0700'
+	action :create
+end
+
 # Copy our seed data to the node for installation into mongo
 cookbook_file '/tmp/national_park_service.json' do
 	source 'national_park_service.json'
 	owner 'root'
 	group 'root'
 	mode '0600'
-end
-
-cookbook_file '/tmp/check-nationalparks-data.sh' do
-        source 'check-nationalparks-data.sh'
-        owner 'root'
-        group 'root'
-        mode '0700'
 end
 
 # Load the seed data into mongo

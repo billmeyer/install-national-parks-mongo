@@ -5,6 +5,13 @@
 
     ]
   },
+  "default": {
+    "mongodb": {
+      "seeddata": {
+        "chksum": "c627c40d435f0b9f90480479e3a7fa6c"
+      }
+    }
+  },
   "automatic": {
     "cpu": {
       "0": {
@@ -274,13 +281,13 @@
     "filesystem": {
       "/dev/mapper/rhel-root": {
         "kb_size": "15718400",
-        "kb_used": "8903056",
-        "kb_available": "6815344",
+        "kb_used": "8845308",
+        "kb_available": "6873092",
         "percent_used": "57%",
         "mount": "/",
         "total_inodes": "15728640",
-        "inodes_used": "245102",
-        "inodes_available": "15483538",
+        "inodes_used": "245418",
+        "inodes_available": "15483222",
         "inodes_percent_used": "2%",
         "fs_type": "xfs",
         "mount_options": [
@@ -893,23 +900,23 @@
         "free": "3145724kB"
       },
       "total": "4047400kB",
-      "free": "3140388kB",
+      "free": "3161608kB",
       "buffers": "764kB",
-      "cached": "398048kB",
-      "active": "561224kB",
-      "inactive": "151752kB",
-      "dirty": "1484kB",
+      "cached": "343728kB",
+      "active": "498760kB",
+      "inactive": "153116kB",
+      "dirty": "12kB",
       "writeback": "0kB",
-      "anon_pages": "331096kB",
-      "mapped": "43740kB",
-      "slab": "92156kB",
-      "slab_reclaimable": "65240kB",
-      "slab_unreclaim": "26916kB",
-      "page_tables": "12244kB",
+      "anon_pages": "324136kB",
+      "mapped": "43348kB",
+      "slab": "133232kB",
+      "slab_reclaimable": "106056kB",
+      "slab_unreclaim": "27176kB",
+      "page_tables": "11064kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "5169424kB",
-      "committed_as": "771964kB",
+      "committed_as": "754980kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "151220kB",
       "vmalloc_chunk": "34359552200kB"
@@ -1017,6 +1024,7 @@
           "state": "up",
           "arp": {
             "192.168.2.6": "94:de:80:c6:41:f8",
+            "192.168.2.79": "40:0e:85:0a:1f:b7",
             "192.168.2.185": "58:b0:35:71:43:8f",
             "192.168.2.12": "30:46:9a:97:55:28",
             "192.168.2.232": "40:6c:8f:4d:51:82"
@@ -1153,15 +1161,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "4438761",
-              "packets": "1958",
+              "bytes": "4893657",
+              "packets": "2080",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "4438761",
-              "packets": "1958",
+              "bytes": "4893657",
+              "packets": "2080",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -1171,16 +1179,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "14723269",
-              "packets": "72237",
+              "bytes": "17288592",
+              "packets": "90340",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "227672220",
-              "packets": "402012",
+              "bytes": "359149524",
+              "packets": "836570",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1197,8 +1205,8 @@
               "collisions": "0"
             },
             "rx": {
-              "bytes": "91497544",
-              "packets": "275143",
+              "bytes": "220371511",
+              "packets": "687277",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1273,10 +1281,10 @@
     "platform": "redhat",
     "platform_version": "7.1",
     "platform_family": "rhel",
-    "uptime_seconds": 68845,
-    "uptime": "19 hours 07 minutes 25 seconds",
-    "idletime_seconds": 273882,
-    "idletime": "3 days 04 hours 04 minutes 42 seconds",
+    "uptime_seconds": 183308,
+    "uptime": "2 days 02 hours 55 minutes 08 seconds",
+    "idletime_seconds": 729865,
+    "idletime": "8 days 10 hours 44 minutes 25 seconds",
     "virtualization": {
       "systems": {
         "kvm": "guest"
@@ -1353,12 +1361,12 @@
       "by_device": {
         "/dev/mapper/rhel-root": {
           "kb_size": "15718400",
-          "kb_used": "8903036",
-          "kb_available": "6815364",
+          "kb_used": "8845308",
+          "kb_available": "6873092",
           "percent_used": "57%",
           "total_inodes": "15728640",
-          "inodes_used": "245102",
-          "inodes_available": "15483538",
+          "inodes_used": "245418",
+          "inodes_available": "15483222",
           "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
@@ -1632,12 +1640,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "15718400",
-          "kb_used": "8903036",
-          "kb_available": "6815364",
+          "kb_used": "8845308",
+          "kb_available": "6873092",
           "percent_used": "57%",
           "total_inodes": "15728640",
-          "inodes_used": "245102",
-          "inodes_available": "15483538",
+          "inodes_used": "245418",
+          "inodes_available": "15483222",
           "inodes_percent_used": "2%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -1691,12 +1699,12 @@
         },
         "/run": {
           "kb_size": "2023700",
-          "kb_used": "8664",
-          "kb_available": "2015036",
+          "kb_used": "8620",
+          "kb_available": "2015080",
           "percent_used": "1%",
           "total_inodes": "505925",
-          "inodes_used": "451",
-          "inodes_available": "505474",
+          "inodes_used": "435",
+          "inodes_available": "505490",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2023,13 +2031,13 @@
         "/dev/mapper/rhel-root,/": {
           "device": "/dev/mapper/rhel-root",
           "kb_size": "15718400",
-          "kb_used": "8903036",
-          "kb_available": "6815364",
+          "kb_used": "8845308",
+          "kb_available": "6873092",
           "percent_used": "57%",
           "mount": "/",
           "total_inodes": "15728640",
-          "inodes_used": "245102",
-          "inodes_available": "15483538",
+          "inodes_used": "245418",
+          "inodes_available": "15483222",
           "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2082,13 +2090,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "2023700",
-          "kb_used": "8664",
-          "kb_available": "2015036",
+          "kb_used": "8620",
+          "kb_available": "2015080",
           "percent_used": "1%",
           "mount": "/run",
           "total_inodes": "505925",
-          "inodes_used": "451",
-          "inodes_available": "505474",
+          "inodes_used": "435",
+          "inodes_available": "505490",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2656,7 +2664,7 @@
         "rotational": "1"
       }
     },
-    "ohai_time": 1455031176.9656546,
+    "ohai_time": 1455145640.5892074,
     "etc": {
       "passwd": {
         "root": {
